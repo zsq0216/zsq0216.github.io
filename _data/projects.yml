@@ -1,8 +1,3 @@
-- title: TraceBridge
-  subtitle: Coding agent training
-  description: Interaction-aware trajectory rewriting across coding-agent harnesses. Adapts actions and preserves context to prepare supervised fine-tuning data.
-  url: https://github.com/zsq0216/trace-bridge
-  period: Open source
 - title: Simulation Environments for LLM Post-training
   subtitle: Multimodal & agentic LLMs
   description: Developing reusable simulation environments for large-scale training and evaluation, including modular wrappers, unified state and action abstractions, and environment generation. Part of a National Key Science and Technology Program of China project.
