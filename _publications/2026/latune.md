@@ -13,6 +13,7 @@ authors:
 - Yun Ma
 links:
   Paper: https://doi.org/10.1145/3774904.3792382
+  Code: https://github.com/pkuaiweb/LaTune
 cover: /assets/images/covers/latune.webp
 cover_alt: LaTune framework with knowledge adaptation, parameter selection, and multi-objective optimization
 ---

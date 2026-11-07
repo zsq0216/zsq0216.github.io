@@ -11,7 +11,9 @@ authors:
 - Mugeng Liu
 - Chongyang Pan
 - Yun Ma
-links: {}
+links:
+  Dataset: https://huggingface.co/datasets/envfaultbench/EnvFaultBench
+  Code: https://github.com/pkuaiweb/envfault-bench
 cover: /assets/images/covers/envfaultbench.webp
 cover_alt: EnvFaultBench pipeline for fault-instance construction, validation, and agent evaluation
 ---
