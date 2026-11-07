@@ -15,4 +15,6 @@ authors:
 links:
   arXiv: https://arxiv.org/abs/2507.00521
   Code: https://github.com/morgen52/webanns
+cover: /assets/images/covers/webanns.webp
+cover_alt: WebANNS architecture with browser-based indexing, cache management, and external storage
 ---

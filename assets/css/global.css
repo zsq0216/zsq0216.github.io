@@ -150,3 +150,50 @@ div.lazy {
         transition: none;
     }
 }
+
+/* Preserve complete paper diagrams and offer a large view on every screen. */
+.publication-cover-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.publication-cover-link {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #e8ecef;
+    border-radius: 5px;
+    text-align: center;
+}
+.publication-cover-link:hover,
+.publication-cover-link:focus-visible {
+    border-color: #8aa5bb;
+    text-decoration: none;
+}
+.publication-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.publication-cover-hint {
+    display: block;
+    margin-top: 7px;
+    color: #687b8c;
+    font-size: 10px;
+}
+.education-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+@media (max-width: 767.98px) {
+    .publication-cover-column {
+        padding-bottom: 0 !important;
+    }
+    .publication-cover-link {
+        max-width: 360px;
+    }
+}

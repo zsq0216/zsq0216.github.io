@@ -18,4 +18,6 @@ links:
   Paper: https://doi.org/10.1145/3788873
   arXiv: https://arxiv.org/abs/2506.09713
   Code: https://github.com/infbug/bugs-in-LLM-inference-engines
+cover: /assets/images/covers/inference-bugs.webp
+cover_alt: 'Study methodology: inference engine selection, bug collection, and manual labeling'
 ---

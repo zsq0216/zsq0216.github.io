@@ -12,4 +12,6 @@ authors:
 - Chongyang Pan
 - Yun Ma
 links: {}
+cover: /assets/images/covers/envfaultbench.webp
+cover_alt: EnvFaultBench pipeline for fault-instance construction, validation, and agent evaluation
 ---

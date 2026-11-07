@@ -19,4 +19,6 @@ authors:
 - Yun Ma
 links:
   Paper: https://arxiv.org/pdf/2605.21630
+cover: /assets/images/covers/mindloom.webp
+cover_alt: 'MindLoom pipeline: thought mode extraction, retrieval learning, compositional synthesis, and filtering'
 ---
