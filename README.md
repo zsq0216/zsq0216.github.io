@@ -1,3 +1,40 @@
+# Siqi Zhong — Academic Homepage
+
+基于 [luost26/academic-homepage](https://github.com/luost26/academic-homepage) 的 Jekyll 个人学术主页。
+
+线上地址：https://zsq0216.github.io/
+
+## 更新内容
+
+- `_data/profile.yml`：姓名、邮箱、简介、教育与奖项。
+- `_publications/2025/`、`_publications/2026/`：论文条目；`selected: true` 显示在首页。
+- `_data/authors.yml`：作者名加粗设置。
+- `_data/projects.yml`：首页和 Projects 页展示的研究项目。
+- `assets/images/photos/portrait.jpg`：个人照片。
+- `_data/navigation.yml`：导航栏。
+- `_config.yml`：站点配置。个人主页的 `baseurl` 应保持为空字符串。
+
+## 本地运行
+
+安装 Ruby 和 Bundler 后执行：
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+访问 http://localhost:4000/ 。推送至 `main` 后，由仓库现有 GitHub Pages 构建流程发布，无需另建仓库。
+
+## 资料说明
+
+内容来自本人提供的简历目录，论文链接已根据 ACM、arXiv 和官方代码仓库核对。博士毕业时间为预计时间。未采用简历中的其他作者模板简介、导师或论文数量声明。简历内有不同的 Scholar ID，未确认前不展示；原简历 PDF 含模板姓名，因此暂不提供下载。
+
+模板示例新闻、博客、Showcase 和 2023/2024 示例论文通过 `_config.yml` 的 `exclude` 排除，不会发布为个人成果。模板原始文件保留，便于未来扩展。
+
+---
+
+## Upstream template documentation
+
 # academic-homepage
 
 [![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)
