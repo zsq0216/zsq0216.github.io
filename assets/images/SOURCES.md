@@ -10,3 +10,6 @@ Paper covers are cropped renders of original research figures. The complete figu
 - `badges/Fudan_blue.png`: blue emblem extracted from the official Fudan University identity sheet, https://www.fudan.edu.cn/_upload/article/images/72/fa/4a0ce26f42aa9edc5174c3b9c347/6ceb9e34-31ef-4e75-a5b5-7779c9eb3d44.png ; source page: https://www.fudan.edu.cn/bsxt/
 
 Research figures remain attributed to their respective papers. University emblems identify educational affiliations.
+
+- `covers/deepweb-bench.webp`: Figure 1, PDF page 4, https://arxiv.org/pdf/2605.21482
+- `covers/questbench.webp`: Figure 1, PDF page 2, https://arxiv.org/pdf/2605.21413
