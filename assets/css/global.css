@@ -199,6 +199,12 @@ div.lazy {
     object-fit: contain;
     flex-shrink: 0;
 }
+.honors-list {
+    line-height: 1.8;
+}
+.honors-list > li + li {
+    margin-top: 0.5rem;
+}
 @media (max-width: 767.98px) {
     .publication-cover-column {
         padding-bottom: 0 !important;
