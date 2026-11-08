@@ -35,6 +35,6 @@ experience:
   focus: Agent Post-training
   date: 2026.07 – Present
   highlights:
-  - Developed pipelines to standardize heterogeneous coding-agent trajectories, preserving tool-call and observation alignment and validating complete long-context SFT inputs. Verified a 64K-context, 7B-model full-parameter SFT training pipeline.
+  - Developed pipelines to standardize heterogeneous coding-agent trajectories, preserving tool-call and observation alignment and validating complete long-context SFT inputs.
   - Built an environment-validated trajectory simplification prototype using dependency analysis, evidence preservation, and replay-based consistency checks to improve the quality of agent post-training data.
   - Implemented adapters for trajectory conversion, offline auditing, and replay. Validated conversion on real traces and demonstrated partial tool-call re-execution and observation reconstruction in fresh containers.
