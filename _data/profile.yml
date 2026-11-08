@@ -8,7 +8,7 @@ positions:
 email: siqizhong25@stu.pku.edu.cn
 github: zsq0216
 short_bio_text_justify: false
-short_bio: <p>I am a Ph.D. student in Computer Science and Technology at Peking University. Previously, I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses on LLM agents and AI software engineering, with interests in coding agents, agent harnesses, and training environments. I also work on efficient and reliable LLM systems, including inference optimization, configuration tuning, and empirical bug analysis.</p><p><strong>Research interests:</strong> LLM agents, AI software engineering, and efficient and reliable LLM systems.</p>
+short_bio: <p>I am a Ph.D. student in Computer Science and Technology at Peking University. Previously, I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses on LLM agents and AI for software engineering. I am interested in improving agents’ reasoning and problem-solving capabilities through post-training, high-quality trajectory data, and rigorous evaluation, with a particular focus on coding agents and complex, multi-step tasks.</p><p><strong>Research interests:</strong> LLM agents and reasoning, agent post-training, and AI for software engineering.</p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Siqi Zhong
 education:
@@ -22,7 +22,7 @@ education:
   logo: /assets/images/badges/Fudan_blue.png
 awards:
 - name: Outstanding Research Award, Peking University
-  date: '2025–2026'
+  date: 2025–2026
 - name: Shanghai Outstanding Graduate
   date: '2025'
 - name: Outstanding Student, Fudan University
