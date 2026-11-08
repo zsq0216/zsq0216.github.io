@@ -28,3 +28,13 @@ awards:
 - name: First-Class Scholarship, Fudan University
   date: 2022–2024
 gscholar: https://scholar.google.com/citations?user=2MhT_MQAAAAJ&hl=zh-CN
+experience:
+- name: Shanghai Artificial Intelligence Laboratory
+  url: https://www.shlab.org.cn/
+  position: Research Intern
+  focus: Agent Post-training
+  date: 2026.07 – Present
+  highlights:
+  - Developed pipelines to standardize heterogeneous coding-agent trajectories, preserving tool-call and observation alignment and validating complete long-context SFT inputs. Verified a 64K-context, 7B-model full-parameter SFT training pipeline.
+  - Built an environment-validated trajectory simplification prototype using dependency analysis, evidence preservation, and replay-based consistency checks to improve the quality of agent post-training data.
+  - Implemented adapters for trajectory conversion, offline auditing, and replay. Validated conversion on real traces and demonstrated partial tool-call re-execution and observation reconstruction in fresh containers.
