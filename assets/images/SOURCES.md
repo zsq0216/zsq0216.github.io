@@ -13,3 +13,5 @@ Research figures remain attributed to their respective papers. University emblem
 
 - `covers/deepweb-bench.webp`: Figure 1, PDF page 4, https://arxiv.org/pdf/2605.21482
 - `covers/questbench.webp`: Figure 1, PDF page 2, https://arxiv.org/pdf/2605.21413
+
+- `covers/tracebridge.webp`: original pipeline figure `figures/tracebridge.pdf` from the author's local ICLR 2027 submission manuscript, titled "TraceBridge: Interaction-Aware Trajectory Rewriting across Harnesses for Coding Agent Training". Author list omitted at the author's request; submission is under review.
