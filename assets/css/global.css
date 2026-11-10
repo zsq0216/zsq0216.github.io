@@ -215,8 +215,8 @@ div.lazy {
 }
 
 .internship-logo {
-    width: 64px;
-    height: 38px;
+    width: 32px;
+    height: 24px;
     object-fit: contain;
-    vertical-align: middle;
+    flex-shrink: 0;
 }

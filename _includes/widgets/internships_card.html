@@ -6,8 +6,8 @@
     {% for item in site.data.profile.experience %}
     <article class="p-4 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
         <div class="d-flex flex-wrap justify-content-between align-items-baseline">
-            <h5 class="font-weight-normal mr-3 mb-1">
-                {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="" class="internship-logo mr-2">{% endif %}
+            <h5 class="font-weight-normal d-flex align-items-center mr-3 mb-1">
+                {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="" width="32" height="24" class="internship-logo mr-2">{% endif %}
                 {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
             </h5>
             <span class="small text-muted mb-2">{{ item.date }}</span>
