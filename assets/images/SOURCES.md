@@ -17,3 +17,5 @@ Research figures remain attributed to their respective papers. University emblem
 - `covers/tracebridge.webp`: original pipeline figure `figures/tracebridge.pdf` from the author's local ICLR 2027 submission manuscript, titled "TraceBridge: Interaction-Aware Trajectory Rewriting across Harnesses for Coding Agent Training". Author list omitted at the author's request; submission is under review.
 
 - `badges/ShanghaiAILab.png`: official Shanghai Artificial Intelligence Laboratory logo from https://www.shlab.org.cn/static/asset/img/share-logo.png ; source: https://www.shlab.org.cn/ . Reused without modification from the CV assets.
+
+- `logo.svg`: original vector “47” mark for Siqi Zhong, designed with rounded teal and coral digits and a gold sparkle. `apple-touch-icon.png` and `favicon.ico` are raster exports of the same SVG. Replaces the previous SZ monogram.
