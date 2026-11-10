@@ -18,4 +18,4 @@ Research figures remain attributed to their respective papers. University emblem
 
 - `badges/ShanghaiAILab.png`: official Shanghai Artificial Intelligence Laboratory logo from https://www.shlab.org.cn/static/asset/img/share-logo.png ; source: https://www.shlab.org.cn/ . Reused without modification from the CV assets.
 
-- `logo.svg`: original vector “47” mark for Siqi Zhong, designed with rounded teal and coral digits and a gold sparkle. `apple-touch-icon.png` and `favicon.ico` are raster exports of the same SVG. Replaces the previous SZ monogram.
+- `logo.svg`: original vector “47” mark for Siqi Zhong, designed with rounded indigo and periwinkle digits on a pale blue-gray background, with a muted gold sparkle. `apple-touch-icon.png` and `favicon.ico` are raster exports of the same SVG. Replaces the previous SZ monogram.
