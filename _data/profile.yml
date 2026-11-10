@@ -10,11 +10,11 @@ github: zsq0216
 short_bio_text_justify: false
 short_bio: <p>I am a Ph.D. student in Computer Science and Technology at the School of Computer Science, Peking
   University. I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses
-  on coding agents, post-training, and LLM reasoning. I study how to turn heterogeneous interaction trajectories
+  on coding agents, agent post-training, and data synthesis. I study how to turn heterogeneous interaction trajectories
   into useful training data, and how task and environment design can support agent training and evaluation.</p><p>I
   am currently a research intern at Shanghai Artificial Intelligence Laboratory, working on trajectory rewriting
   for coding-agent SFT and trajectory auditing and replay for CVE vulnerability tasks.</p><p><strong>Research interests:</strong>
-  Coding agents, post-training, and LLM reasoning.</p>
+  Coding Agent · Agent Post-training · Data Synthesis</p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Siqi Zhong
 education:
