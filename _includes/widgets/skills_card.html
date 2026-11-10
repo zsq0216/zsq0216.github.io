@@ -1,0 +1,11 @@
+{% if site.data.profile.skills %}
+<section class="my-3 p-0 bg-white shadow-sm rounded-xl" aria-labelledby="skills-heading">
+    <h6 class="border-bottom border-gray p-3 mb-0" id="skills-heading"><i class="fas fa-laptop-code" aria-hidden="true"></i> Research &amp; Technical Skills</h6>
+    <dl class="small p-4 mb-0">
+        {% for skill in site.data.profile.skills %}
+        <dt>{{ skill.name }}</dt>
+        <dd class="text-muted {% if forloop.last %}mb-0{% else %}mb-3{% endif %}">{{ skill.description }}</dd>
+        {% endfor %}
+    </dl>
+</section>
+{% endif %}

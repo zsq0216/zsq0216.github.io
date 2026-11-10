@@ -1,5 +1,18 @@
-- title: Simulation Environments for LLM Post-training
-  subtitle: Multimodal & agentic LLMs
-  description: Developing reusable simulation environments for large-scale training and evaluation, including modular wrappers, unified state and action abstractions, and environment generation. Part of a National Key Science and Technology Program of China project.
+- title: Simulation Environment Services for Multimodal and Agentic LLM Post-training
+  subtitle: National Science and Technology Major Project for Next-Generation AI
+  program: Part of “Key Technologies and Systems for Hardware–Software Co-designed Training and Inference on Domestic
+    Hardware.”
+  description: The project studies composable multimodal and agentic simulation environments, reinforcement-learning-aware
+    asynchronous interaction, and elastic resource scheduling to provide reusable, scalable environment services
+    for LLM post-training.
+  highlights:
+  - title: Research Contributions
+    description: I study task design, environment construction, and evaluation methods for post-training, building
+      task sets and benchmarks to analyze agent execution, environment-fault diagnosis, and repair. This work informs
+      environment design and training-data construction; part of the research is reported in my first-author NeurIPS
+      2026 paper, EnvFaultBench.
+  - title: Project Coordination
+    description: I also participate in project management, assisting with progress tracking and collaboration across
+      contributors.
   url: ''
-  period: 2025.12 – 2028.11
+  period: 2025.12 – 2028.12

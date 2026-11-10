@@ -213,3 +213,10 @@ div.lazy {
         max-width: 360px;
     }
 }
+
+.internship-logo {
+    width: 64px;
+    height: 38px;
+    object-fit: contain;
+    vertical-align: middle;
+}

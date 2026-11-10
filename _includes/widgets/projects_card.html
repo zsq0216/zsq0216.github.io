@@ -9,7 +9,15 @@
             <span>{{ project.period }}</span>
         </div>
         <h5 class="font-weight-normal">{{ project.title }}</h5>
+        {% if project.program %}<p class="small text-muted mb-2">{{ project.program }}</p>{% endif %}
         <p class="small text-muted mb-2">{{ project.description }}</p>
+        {% if project.highlights %}
+        <ul class="small text-muted pl-3 mb-0">
+            {% for highlight in project.highlights %}
+            <li class="mb-2"><strong class="text-dark">{{ highlight.title }}</strong> &mdash; {{ highlight.description }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
         {% if project.url != '' %}
         <a class="small" href="{{ project.url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code on GitHub</a>
         {% endif %}

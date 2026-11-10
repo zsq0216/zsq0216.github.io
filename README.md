@@ -25,9 +25,15 @@ bundle exec jekyll serve
 
 访问 http://localhost:4000/ 。推送至 `main` 后，由仓库现有 GitHub Pages 构建流程发布，无需另建仓库。
 
+## 最新内容同步（2026-11-10）
+
+按本人提供的 `../cv/output/siqizhong_pkucs30_resume.pdf` 更新英文简介、教育院系与日期、实习研究及项目职责，补充研究与技术技能。轨迹改写的提升以百分点表述；CVE 轨迹恢复与成功示范生成仍为探索中的工作。项目周期使用本人指定的 2025.12—2028.12。
+
+主页继续保留已有 Publication / Selected Publication 的范围，arXiv-only 条目仍仅在 Publications 页展示；TraceBridge 保留 ICLR 2027 在投及第一作者信息。未上传简历全文。
+
 ## 资料说明
 
-内容来自本人提供的简历目录，论文链接已根据 ACM、arXiv 和官方代码仓库核对。博士毕业时间为预计时间。未采用简历中的其他作者模板简介、导师或论文数量声明。Google Scholar 使用本人确认的 `2MhT_MQAAAAJ` 主页；原简历 PDF 含模板姓名，因此暂不提供下载。
+内容来自本人提供的简历目录，论文链接已根据 ACM、arXiv 和官方代码仓库核对。教育日期与院系信息按最新简历同步。未采用简历中的其他作者模板简介、导师或论文数量声明。Google Scholar 使用本人确认的 `2MhT_MQAAAAJ` 主页；
 
 模板示例新闻、博客、Showcase 和 2023/2024 示例论文通过 `_config.yml` 的 `exclude` 排除，不会发布为个人成果。模板原始文件保留，便于未来扩展。
 

@@ -8,18 +8,28 @@ positions:
 email: siqizhong25@stu.pku.edu.cn
 github: zsq0216
 short_bio_text_justify: false
-short_bio: <p>I am a Ph.D. student in Computer Science and Technology at Peking University. Previously, I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses on LLM agents and AI for software engineering. I am interested in improving agents’ reasoning and problem-solving capabilities through post-training, high-quality trajectory data, and rigorous evaluation, with a particular focus on coding agents and complex, multi-step tasks.</p><p><strong>Research interests:</strong> LLM agents and reasoning, agent post-training, and AI for software engineering.</p>
+short_bio: <p>I am a Ph.D. student in Computer Science and Technology at the School of Computer Science, Peking
+  University. I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses
+  on coding agents, post-training, and LLM reasoning. I study how to turn heterogeneous interaction trajectories
+  into useful training data, and how task and environment design can support agent training and evaluation.</p><p>I
+  am currently a research intern at Shanghai Artificial Intelligence Laboratory, working on trajectory rewriting
+  for coding-agent SFT and trajectory auditing and replay for CVE vulnerability tasks.</p><p><strong>Research interests:</strong>
+  Coding agents, post-training, and LLM reasoning.</p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Siqi Zhong
 education:
 - name: Peking University
   position: Ph.D. in Computer Science and Technology
-  date: 2025.09 – 2030.06 (expected)
+  date: 2025.09 – 2030.06
   logo: /assets/images/badges/PKU_red.png
+  dept: School of Computer Science
+  dept_url: https://cs.pku.edu.cn/
 - name: Fudan University
   position: B.S. in Software Engineering
   date: 2021.09 – 2025.06
   logo: /assets/images/badges/Fudan_blue.png
+  dept: College of Computer Science and Artificial Intelligence
+  dept_url: https://ai.fudan.edu.cn/
 awards:
 - name: Outstanding Research Award, Peking University
   date: 2025–2026
@@ -34,9 +44,31 @@ experience:
 - name: Shanghai Artificial Intelligence Laboratory
   url: https://www.shlab.org.cn/
   position: Research Intern
-  focus: Agent Post-training
+  focus: Coding Agent Post-training & Trajectory Data Research
   date: 2026.07 – Present
   highlights:
-  - Developed pipelines to standardize heterogeneous coding-agent trajectories, preserving tool-call and observation alignment and validating complete long-context SFT inputs.
-  - Built an environment-validated trajectory simplification prototype using dependency analysis, evidence preservation, and replay-based consistency checks to improve the quality of agent post-training data.
-  - Implemented adapters for trajectory conversion, offline auditing, and replay. Validated conversion on real traces and demonstrated partial tool-call re-execution and observation reconstruction in fresh containers.
+  - title: Trajectory Standardization & Rewriting
+    description: For software engineering tasks, I rewrite heterogeneous trajectories into SFT data for a target
+      agent framework. A shared intermediate representation and tool contracts constrain tool-call adaptation, while
+      interactions that cannot be adapted are retained as context with zero training loss to preserve both action
+      semantics and the evidence behind subsequent reasoning.
+    result: Using the same source trajectories, this approach improves SWE-bench Verified resolved rates over direct
+      source-trajectory training by 12.40 and 7.40 percentage points in OpenHands and SWE-agent, respectively.
+    publication:
+      title: TraceBridge
+      venue: ICLR 2027
+      status: Under review · First author
+      code: https://github.com/zsq0216/trace-bridge
+  - title: Trajectory Auditing & Replay (Ongoing)
+    description: For CVE vulnerability tasks, I am developing a workflow that connects offline diagnosis, recovery-boundary
+      identification, and trajectory-prefix replay. Re-executing historical calls and filling in observations reconstruct
+      intermediate state; I am exploring re-execution from critical steps to produce successful demonstrations.
+  logo: /assets/images/badges/ShanghaiAILab.png
+skills:
+- name: Programming & Engineering
+  description: C++ and Python; agent pipelines, tool use, context management, and AI-assisted programming.
+- name: LLM Post-training
+  description: Supervised fine-tuning (SFT), reinforcement learning with verifiable rewards (RLVR), LLM reasoning,
+    and agent trajectory data construction.
+- name: Data & Analysis
+  description: Data synthesis, filtering, quality assessment, and analysis of agent interaction trajectories.
