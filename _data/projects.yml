@@ -1,18 +1,16 @@
 - title: Simulation Environment Services for Multimodal and Agentic LLM Post-training
   subtitle: National Science and Technology Major Project for Next-Generation AI
-  program: Part of “Key Technologies and Systems for Hardware–Software Co-designed Training and Inference on Domestic
-    Hardware.”
-  description: The project studies composable multimodal and agentic simulation environments, reinforcement-learning-aware
-    asynchronous interaction, and elastic resource scheduling to provide reusable, scalable environment services
-    for LLM post-training.
+  description: Research on task design, environment construction, and evaluation methods for LLM post-training.
   highlights:
-  - title: Research Contributions
-    description: I study task design, environment construction, and evaluation methods for post-training, building
-      task sets and benchmarks to analyze agent execution, environment-fault diagnosis, and repair. This work informs
-      environment design and training-data construction; part of the research is reported in my first-author NeurIPS
-      2026 paper, EnvFaultBench.
-  - title: Project Coordination
-    description: I also participate in project management, assisting with progress tracking and collaboration across
-      contributors.
+  - title: Environment Construction & Evaluation
+    description: I study task design, environment construction, and evaluation for post-training simulation environments,
+      focusing on agent task execution, fault diagnosis, and autonomous repair in complex software environments.
+  - title: EnvFaultBench
+    description: I contributed to a benchmark for environment-fault diagnosis and repair, constructing 348 Docker-based
+      instances from real GitHub issues in 75 open-source projects. It covers Python, TS/JS, and JVM ecosystems,
+      with 22 fault categories across three root-cause levels. For cases where the code is correct but the environment
+      is faulty, such as dependency conflicts and configuration drift, hidden functional tests judge repair by whether
+      target behavior is restored, allowing different command sequences as valid repairs. We evaluate 10 LLMs under
+      a unified agent framework. This work led to a first-author paper at NeurIPS 2026 (E&D Track).
   url: ''
   period: 2025.12 – 2028.12

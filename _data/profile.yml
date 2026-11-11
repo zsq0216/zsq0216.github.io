@@ -10,11 +10,11 @@ github: zsq0216
 short_bio_text_justify: false
 short_bio: <p>I am a Ph.D. student in Computer Science and Technology at the School of Computer Science, Peking
   University. I received my B.S. in Software Engineering from Fudan University in 2025.</p><p>My research focuses
-  on coding agents, agent post-training, and data synthesis. I study how to turn heterogeneous interaction trajectories
-  into useful training data, and how task and environment design can support agent training and evaluation.</p><p>I
+  on coding agents, agent post-training, and data synthesis. I study cross-framework trajectory adaptation, the
+  construction and evaluation of post-training data, and task and environment design for agent evaluation.</p><p>I
   am currently a research intern at Shanghai Artificial Intelligence Laboratory, working on trajectory rewriting
-  for coding-agent SFT and trajectory auditing and replay for CVE vulnerability tasks.</p><p><strong>Research interests:</strong>
-  Coding Agent · Agent Post-training · Data Synthesis</p>
+  and post-training data for coding agents, as well as diagnosis and recovery of failed execution in software vulnerability
+  repair tasks.</p><p><strong>Research interests:</strong> Coding Agent · Agent Post-training · Data Synthesis</p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Siqi Zhong
 education:
@@ -35,10 +35,8 @@ awards:
   date: 2025–2026
 - name: Shanghai Outstanding Graduate
   date: '2025'
-- name: Outstanding Student, Fudan University
-  date: 2022–2024
-- name: First-Class Scholarship, Fudan University
-  date: 2022–2024
+- name: Outstanding Student & First-Class Scholarship, Fudan University (multiple awards)
+  date: 2021–2024
 gscholar: https://scholar.google.com/citations?user=2MhT_MQAAAAJ&hl=zh-CN
 experience:
 - name: Shanghai Artificial Intelligence Laboratory
@@ -47,28 +45,33 @@ experience:
   focus: Coding Agent Post-training & Trajectory Data Research
   date: 2026.07 – Present
   highlights:
-  - title: Trajectory Standardization & Rewriting
-    description: For software engineering tasks, I rewrite heterogeneous trajectories into SFT data for a target
-      agent framework. A shared intermediate representation and tool contracts constrain tool-call adaptation, while
-      interactions that cannot be adapted are retained as context with zero training loss to preserve both action
-      semantics and the evidence behind subsequent reasoning.
-    result: Using the same source trajectories, this approach improves SWE-bench Verified resolved rates over direct
-      source-trajectory training by 12.40 and 7.40 percentage points in OpenHands and SWE-agent, respectively.
+  - title: Cross-framework Trajectory Rewriting
+    description: For training-data transfer across agent frameworks, I designed a unified trajectory representation
+      that captures operation types, targets, content, and execution context, while linking tool calls to their
+      feedback. I adapt actions according to tool-call semantics and execution constraints, retaining unsupported
+      interactions as historical context with key operational information. The work covers six frameworks and 10,000
+      trajectories.
+  - title: Post-training Data Construction & Validation
+    description: I construct target-framework SFT data from rewritten trajectories and evaluate it on SWE-bench
+      Verified, Pro, and Multilingual.
+    result: Using the same source trajectories, this approach improves Verified resolved rates over SFT on the original
+      trajectories by 12.4 and 7.4 percentage points in OpenHands and SWE-agent, respectively.
     publication:
-      title: TraceBridge
       venue: ICLR 2027
       status: Under review · First author
-      code: https://github.com/zsq0216/trace-bridge
-  - title: Trajectory Auditing & Replay (Ongoing)
-    description: For CVE vulnerability tasks, I am developing a workflow that connects offline diagnosis, recovery-boundary
-      identification, and trajectory-prefix replay. Re-executing historical calls and filling in observations reconstruct
-      intermediate state; I am exploring re-execution from critical steps to produce successful demonstrations.
+  - title: Failure Diagnosis & Recovery
+    description: For CVE-related software vulnerability repair tasks, I study offline diagnosis of failed trajectories,
+      recovery-point identification, and execution replay. By re-executing historical tool calls and filling in
+      observations, I reconstruct intermediate state and explore methods for turning failed executions into successful
+      training demonstrations.
   logo: /assets/images/badges/ShanghaiAILab.png
 skills:
-- name: Programming & Engineering
-  description: C++ and Python; agent pipelines, tool use, context management, and AI-assisted programming.
+- name: Engineering
+  description: Proficient in C++ and Python; familiar with agent pipelines, tool use, and context management, with
+    effective use of AI-assisted programming tools.
+- name: Data
+  description: Training-data synthesis, filtering, and quality assessment, with experience analyzing agent trajectories
+    and deriving insights for data construction.
 - name: LLM Post-training
-  description: Supervised fine-tuning (SFT), reinforcement learning with verifiable rewards (RLVR), LLM reasoning,
-    and agent trajectory data construction.
-- name: Data & Analysis
-  description: Data synthesis, filtering, quality assessment, and analysis of agent interaction trajectories.
+  description: Proficient in supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR),
+    with experience training and evaluating coding agents.

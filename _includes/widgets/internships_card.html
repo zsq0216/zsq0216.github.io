@@ -19,7 +19,7 @@
                 <strong class="text-dark">{{ highlight.title }}</strong> &mdash; {{ highlight.description }}
                 {% if highlight.result %}<p class="mt-2 mb-0">{{ highlight.result }}</p>{% endif %}
                 {% if highlight.publication %}
-                <p class="mt-2 mb-0"><strong>{{ highlight.publication.title }}</strong> &middot; {{ highlight.publication.venue }} &middot; {{ highlight.publication.status }} &middot; <a href="{{ highlight.publication.code }}" target="_blank" rel="noopener noreferrer">Code</a></p>
+                <p class="mt-2 mb-0">{% if highlight.publication.title %}<strong>{{ highlight.publication.title }}</strong> &middot; {% endif %}{{ highlight.publication.venue }} &middot; {{ highlight.publication.status }}{% if highlight.publication.code %} &middot; <a href="{{ highlight.publication.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}</p>
                 {% endif %}
             </li>
             {% endfor %}
